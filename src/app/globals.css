@@ -74,6 +74,11 @@
     @apply bg-background text-foreground;
   }
 }
+@layer utilities {
+  .bg-orange-gradient {
+  background: linear-gradient(90deg, #f97316, #fb923c); /* orange shades */
+}
+}
 
 .auth {
   @apply flex-center min-h-screen w-full bg-purple-100;
@@ -224,7 +229,7 @@
   }
 
   .home-heading {
-    @apply h1-semibold max-w-[500px] flex-wrap text-center text-white shadow-sm;
+    @apply h1-semibold max-w-[500px] flex-wrap text-center text-dark-600 shadow-sm;
   }
 
   /* Credits Page */

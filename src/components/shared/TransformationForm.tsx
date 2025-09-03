@@ -296,7 +296,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
         <div className="flex flex-col gap-4">
           <Button 
             type="button"
-            className="submit-button capitalize"
+            className="bg-orange-gradient text-white hover:bg-orange-gradient-hover capitalize"
             disabled={isTransforming || newTransformation === null}
             onClick={onTransformHandler}
           >
@@ -304,12 +304,13 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
           </Button>
           <Button 
             type="submit"
-            className="submit-button capitalize"
+            className="bg-orange-gradient text-white hover:bg-orange-gradient-hover capitalize"
             disabled={isSubmitting}
           >
             {isSubmitting ? 'Submitting...' : 'Save Image'}
           </Button>
         </div>
+
       </form>
     </Form>
   )

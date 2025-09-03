@@ -31,7 +31,7 @@ const Sidebar = () => {
                     key={link.route}
                     className={`sidebar-nav_element group ${
                       isActive
-                        ? "bg-purple-gradient text-white"
+                        ? "bg-orange-gradient text-white"
                         : "text-gray-700"
                     }`}
                   >
@@ -58,7 +58,7 @@ const Sidebar = () => {
                     key={link.route}
                     className={`sidebar-nav_element group ${
                       isActive
-                        ? "bg-purple-gradient text-white"
+                        ? "bg-orange-gradient text-white"
                         : "text-gray-700"
                     }`}
                   >
